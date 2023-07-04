@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ClickController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,26 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::domain('organize.' . env('APP_URL'))->group(function () {
+    Route::view('/', 'organize')->name('organize');
 });
+
+Route::domain('share.' . env('APP_URL'))->group(function () {
+    Route::view('/', 'share')->name('share');
+});
+
+Route::domain('therapist.' . env('APP_URL'))->group(function () {
+    Route::view('/', 'therapist')->name('therapist');
+});
+
+Route::domain('resource.' . env('APP_URL'))->group(function () {
+    Route::view('/', 'resource')->name('resource');
+});
+
+Route::post('contact/store', [ContactController::class, 'store'])
+    ->name('contact.store');
+
+Route::post('click/count_clicks', [ClickController::class, 'countClicks'])
+    ->name('click.count');
+
+
