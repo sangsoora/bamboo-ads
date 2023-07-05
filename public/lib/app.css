@@ -461,9 +461,10 @@
   }
 
   .main-banner {
-    background-image: url(../images/background.jpg);
+    /* background-image: url(../images/background.jpg);
     background-size: cover;
-    background-position: center;
+    background-position: center; */
+    background: rgba(68,215,182,0.5);
     padding: 15vh 0;
     height: 100vh;
   }
@@ -473,25 +474,21 @@
     color: black;
     font-weight: 600;
     margin-bottom: 2rem;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
 
   .main-banner h3 {
-    color: white;
+    color: #1A3671;
     font-size: 1.5rem;
     margin-bottom: 2rem;
     font-weight: 500;
-    text-shadow: 1px 1px 5px rgba(0,0,0,0.5);
   }
 
   .main-banner p {
     font-size: 1.2rem;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
   }
 
   .main-banner-text {
-    padding-left: 5rem;
-    width: 55vw;
+    padding: 1rem 5rem;
   }
 
   .main-banner-text p {
@@ -682,24 +679,23 @@
         font-size: 1.2rem;
       }
     .main-banner {
-      padding: 20vh 0 5vh 0;
+      padding: 15vh 0 5vh 0;
       height: 100vh !important;
     }
 
     .main-banner-text {
       margin: 0 auto;
-      padding-left: 0;
-      width: 85vw;
+      padding: 0 2rem;
     }
 
     .main-banner h1 {
     font-size: 2.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     }
 
     .main-banner h3 {
     font-size: 1.25rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     }
 
     .btn-flat {
