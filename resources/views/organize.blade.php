@@ -20,7 +20,16 @@
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" integrity="sha512-t4GWSVZO1eC8BM339Xd7Uphw5s17a86tIZIj8qRxhnKub6WoyhnrxeCIMeAqBPgdZGlCcG2PrZjMc+Wr78+5Xg==" crossorigin="anonymous" referrerpolicy="no-referrer" />            <link rel="stylesheet" href="{{url('lib/app.css')}}">
             <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
             <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-            {{-- <!-- Facebook Pixel Code -->
+            <!-- Google tag (gtag.js) -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MBJLY8M5L"></script>
+            <script>
+                window.dataLayer = window.dataLayer || [];
+                function gtag(){dataLayer.push(arguments);}
+                gtag('js', new Date());
+
+                gtag('config', 'G-2MBJLY8M5L');
+            </script>
+            <!-- Meta Pixel Code -->
             <script>
                 !function(f,b,e,v,n,t,s)
                 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -30,13 +39,13 @@
                 t.src=v;s=b.getElementsByTagName(e)[0];
                 s.parentNode.insertBefore(t,s)}(window, document,'script',
                 'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '183937492245269');
+                fbq('init', '2921189524567461');
                 fbq('track', 'PageView');
             </script>
             <noscript><img height="1" width="1" style="display:none"
-                src="https://www.facebook.com/tr?id=183937492245269&ev=PageView&noscript=1"
+                src="https://www.facebook.com/tr?id=2921189524567461&ev=PageView&noscript=1"
             /></noscript>
-            <!-- End Facebook Pixel Code --> --}}
+            <!-- End Meta Pixel Code -->
         @show
     </head>
     <body>
