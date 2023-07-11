@@ -76,7 +76,7 @@
                 <h3>Privately self-diagnose and start to get a clearer understanding of what's troubling you.</h3>
                 <h3>Match with a set of qualified Asian therapists and specialists.</h3>
                 <h3>Connect, schedule and start getting the support you deserve.</h3>
-                <button class="btn btn-flat btn-modal" data-page="therapist" data-button="main">Sign up</button>
+                <button class="btn btn-flat btn-modal signup" data-page="therapist" data-button="main">Sign up</button>
             </div>
         </div>
         <section id="features">

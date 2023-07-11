@@ -76,7 +76,7 @@
                 <h3>Engage in heartfelt conversations anonymously with individuals from similar cultural backgrounds or our culturally-aware AI assistant.</h3>
                 <h3>Release the burden, privately and securely, and find out you're not alone.</h3>
                 <h3>Safely connect to others to identify and connect with.</h3>
-                <button class="btn btn-flat btn-modal" data-page="share" data-button="main">Sign up</button>
+                <button class="btn btn-flat btn-modal signup" data-page="share" data-button="main">Sign up</button>
             </div>
         </div>
         <section id="features">

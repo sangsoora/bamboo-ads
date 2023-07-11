@@ -76,7 +76,7 @@
                 <h3>Find and create the time in your busy life for your own emotional health.</h3>
                 <h3>Our suite of tools helps you organize your schedule to make emotional health a habit, not a luxury.</h3>
                 <h3>Our tips, prompts and activities give you the material you need on your journey.</h3>
-                <button class="btn btn-flat btn-modal" data-page="organize" data-button="main">Sign up</button>
+                <button class="btn btn-flat btn-modal signup" data-page="organize" data-button="main">Sign up</button>
             </div>
         </div>
         <section id="features">

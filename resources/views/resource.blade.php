@@ -76,7 +76,7 @@
                 <h3>Privately self-diagnose and start to get a clearer understanding of what's troubling you.</h3>
                 <h3>Access our customized directory of emotional health content, tools, exercises and specialists.</h3>
                 <h3>Anonymously match with peers who you can identify with, and who share your experience.</h3>
-                <button class="btn btn-flat btn-modal" data-page="resource" data-button="main">Sign up</button>
+                <button class="btn btn-flat btn-modal signup" data-page="resource" data-button="main">Sign up</button>
             </div>
         </div>
         <section id="features">
